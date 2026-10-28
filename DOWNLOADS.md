@@ -91,3 +91,12 @@ na 1.0.2; os links estáveis não mudaram.
 Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.8
 
 Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.8/CFLink-1.0.8-source.zip
+
+## Release v1.0.9
+
+Versão Windows Full/QS para testar a atualização a partir da 1.0.8, mantendo
+suas funcionalidades. macOS permanece na 1.0.2; links estáveis preservados.
+
+Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.9
+
+Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.9/CFLink-1.0.9-source.zip
