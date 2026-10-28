@@ -38,3 +38,12 @@ Cada asset tem um label terminado em `vX.Y.Z`, com sua versão real, por exemplo
 `CFLink-macOS-QS-arm64.dmg - v1.0.2`. Preserve essa convenção ao publicar: o
 aplicativo usa a versão do asset para não oferecer um download antigo como novo
 em releases que misturam versões de plataformas diferentes.
+
+## Release v1.0.4
+
+Windows Full e QS estão na versão 1.0.4, com a versão visível na tela principal.
+Os downloads macOS permanecem em 1.0.2. Os links estáveis acima não mudaram.
+
+Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.4
+
+Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.4/CFLink-1.0.4-source.zip

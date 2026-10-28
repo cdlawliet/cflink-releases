@@ -1,5 +1,5 @@
 CF Link / CF Link QS - CF Tecnologia
-Versão da personalização: 1.0.2
+Versão da personalização: 1.0.4
 Base: RustDesk 1.5.0, https://github.com/rustdesk/rustdesk/tree/1.5.0
 
 Este aplicativo é uma versão modificada de RustDesk. Os créditos e a licença
@@ -13,9 +13,15 @@ Não há chave privada do servidor incorporada ao aplicativo.
 
 As configurações de servidor são fixas nesta compilação. Para alterar o servidor,
 é necessário gerar e distribuir uma nova versão da CF Link.
-Full: pode iniciar e receber conexões; senha ou aprovação.
-QS: apenas recebe conexões, por senha temporária ou aprovação local, sem instalação permanente.
+Full: pode iniciar e receber conexões; senha padrão, temporária ou aprovação.
+QS: apenas recebe conexões, por senha padrão, temporária ou aprovação local, sem instalação permanente.
 Interface Full/QS: tema dark fixo.
+Desde 1.0.3: senha padrão de recebimento incorporada por decisão do responsável,
+sem exibição na tela principal. A senha temporária continua visível. O Full não
+envia a senha padrão automaticamente e não reutiliza senhas salvas de clientes.
+Escala adaptada como padrão; escolhas manuais posteriores são preservadas.
+Consulta de novas versões no repositório público de releases, com download
+somente por decisão do usuário e sem instalação automática.
 
 Ao distribuir binários, disponibilize também o código-fonte correspondente,
 incluindo as modificações e as instruções de compilação. A distribuição deste
