@@ -47,3 +47,16 @@ Os downloads macOS permanecem em 1.0.2. Os links estáveis acima não mudaram.
 Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.4
 
 Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.4/CFLink-1.0.4-source.zip
+
+## Release v1.0.5
+
+Windows Full e QS têm atualização interna com download, verificação SHA-256 e
+confirmação para aplicar e reiniciar. A instalação inicial da 1.0.5 é manual
+para quem usa versões anteriores. Os DMGs macOS permanecem na versão 1.0.2.
+
+Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.5
+
+Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.5/CFLink-1.0.5-source.zip
+
+Para a atualização interna, a API do asset precisa informar `size` e `digest`
+SHA-256. Preserve os nomes estáveis e os labels com a versão real por plataforma.
