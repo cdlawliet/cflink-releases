@@ -7,17 +7,18 @@ da empresa, sem necessidade de configurar um servidor.
 
 ## Downloads
 
-**Windows: 1.0.5. macOS: 1.0.2.** Escolha seu sistema e o tipo de uso:
+**Windows: 1.0.6. macOS: 1.0.2.** Escolha seu sistema e o tipo de uso:
 
 | Sistema | Full — realizar e receber acesso | QS — somente receber suporte |
 |---|---|---|
-| Windows x64 — **1.0.5** | [Baixar Full — instalador](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-Full-install.exe) | [Baixar QS — portátil](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS.exe) |
+| Windows x64 — **1.0.6** | [Baixar Full — instalador](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-Full-install.exe) | [Baixar QS — portátil](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS.exe) |
 | macOS 12.3 ou posterior, Apple Silicon — **1.0.2** | [Baixar Full — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-Full-arm64.dmg) | [Baixar QS — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-QS-arm64.dmg) |
 
 [Ver todos os arquivos e versões](https://github.com/cdlawliet/cflink-releases/releases)
 
-A versão Windows 1.0.5 permite baixar e aplicar as próximas atualizações dentro
-do aplicativo, com verificação do arquivo e confirmação antes de reiniciar.
+A versão Windows 1.0.6 permite testar a atualização interna a partir da 1.0.5,
+com verificação do arquivo e confirmação antes de reiniciar. As funcionalidades
+permanecem iguais às da 1.0.5.
 As funcionalidades da versão 1.0.3 estão preservadas nos pacotes Windows. Os DMGs permanecem
 na versão 1.0.2, sem essas alterações, até a próxima compilação no Mac.
 Os pacotes macOS desta publicação são para Apple Silicon. Não há pacote para
@@ -83,9 +84,13 @@ reabre. No Full instalado, autorize o Windows quando solicitar administrador.
 No QS e Full portátil, feche outras janelas do mesmo aplicativo antes de atualizar.
 O portátil guarda o executável anterior com a extensão `.previous`.
 
-Quem usa **1.0.4 ou anterior precisa baixar e instalar/abrir a 1.0.5 manualmente**
+Quem usa **1.0.4 ou anterior precisa baixar e instalar/abrir um pacote recente manualmente**
 pela tabela acima. A atualização interna passa a funcionar da 1.0.5 para uma
 próxima release. macOS permanece na versão 1.0.2, sem esse recurso nos DMGs atuais.
+
+Para testar agora, no **Full ou QS 1.0.5** clique em **Verificar atualização**,
+depois em **Atualizar aplicativo** e confirme **Atualizar e reiniciar**. Confira
+**Versão 1.0.6** na tela principal e após reabrir pelo mesmo arquivo/atalho.
 
 As atualizações são distribuídas por este repositório. Baixe o pacote mais
 recente na tabela acima e substitua a versão anterior. O atualizador do
@@ -99,7 +104,7 @@ identificação da versão podem ser consultados em **Sobre / Licenças** no apl
 
 - [Código-fonte do CF Link e instruções de compilação](https://github.com/cdlawliet/CFLink)
 - [Pacote de fontes macOS 1.0.2](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.2/CFLink-1.0.2-source.zip)
-- [Pacote de fontes Windows 1.0.5](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.5/CFLink-1.0.5-source.zip)
+- [Pacote de fontes Windows 1.0.6](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.6/CFLink-1.0.6-source.zip)
 - [Licença completa](LICENCE)
 - [Projeto original RustDesk](https://github.com/rustdesk/rustdesk)
 - [Hashes SHA-256 dos arquivos publicados](https://github.com/cdlawliet/cflink-releases/releases/latest/download/SHA256SUMS.txt)

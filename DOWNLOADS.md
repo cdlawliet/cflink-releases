@@ -60,3 +60,13 @@ Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v
 
 Para a atualização interna, a API do asset precisa informar `size` e `digest`
 SHA-256. Preserve os nomes estáveis e os labels com a versão real por plataforma.
+
+## Release v1.0.6
+
+Windows Full e QS passam à 1.0.6 para testar a atualização interna a partir da
+1.0.5, mantendo as funcionalidades. macOS continua na 1.0.2. Os links estáveis
+permanecem iguais.
+
+Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.6
+
+Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.6/CFLink-1.0.6-source.zip
