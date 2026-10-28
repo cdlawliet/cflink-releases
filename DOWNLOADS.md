@@ -100,3 +100,14 @@ suas funcionalidades. macOS permanece na 1.0.2; links estáveis preservados.
 Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.9
 
 Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.9/CFLink-1.0.9-source.zip
+
+## Release v1.0.10
+
+Windows Full/QS verificam atualizações em toda abertura da tela principal.
+Download e instalação continuam dependendo da escolha do usuário. As
+consultas periódicas, com o app aberto, mantêm o intervalo diário.
+macOS permanece nos DMGs 1.0.2; os links estáveis foram preservados.
+
+Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.10
+
+Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.10/CFLink-1.0.10-source.zip

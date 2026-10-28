@@ -7,18 +7,18 @@ da empresa, sem necessidade de configurar um servidor.
 
 ## Downloads
 
-**Windows: 1.0.9. macOS: 1.0.2.** Escolha seu sistema e o tipo de uso:
+**Windows: 1.0.10. macOS: 1.0.2.** Escolha seu sistema e o tipo de uso:
 
 | Sistema | Full — realizar e receber acesso | QS — somente receber suporte |
 |---|---|---|
-| Windows x64 — **1.0.9** | [Baixar Full — instalador](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-Full-install.exe) | [Baixar QS — portátil](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS.exe) |
+| Windows x64 — **1.0.10** | [Baixar Full — instalador](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-Full-install.exe) | [Baixar QS — portátil](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS.exe) |
 | macOS 12.3 ou posterior, Apple Silicon — **1.0.2** | [Baixar Full — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-Full-arm64.dmg) | [Baixar QS — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-QS-arm64.dmg) |
 
 [Ver todos os arquivos e versões](https://github.com/cdlawliet/cflink-releases/releases)
 
-A versão Windows 1.0.9 permite testar a atualização interna a partir da 1.0.8,
-mantendo suas funcionalidades. O Full abre a instalação por padrão, mesmo
-quando o navegador acrescenta `(1)` ou `(2)` ao nome do download.
+A versão Windows 1.0.10 verifica atualizações em toda abertura da tela principal,
+em segundo plano, e avisa quando existe uma versão nova compatível.
+O Full mantém a instalação por padrão mesmo após renomear o download.
 As funcionalidades da versão 1.0.3 estão preservadas nos pacotes Windows. Os DMGs permanecem
 na versão 1.0.2, sem essas alterações, até a próxima compilação no Mac.
 Os pacotes macOS desta publicação são para Apple Silicon. Não há pacote para
@@ -77,8 +77,10 @@ de segurança ao abri-los; confira a origem e os hashes disponíveis na release.
 ## Atualizações
 
 Desde o Windows 1.0.3, o aplicativo pode consultar este repositório e avisar
-sobre um novo pacote compatível. A consulta automática ocorre no máximo uma vez
-por dia; “Verificar atualização” permite consultar manualmente.
+sobre um novo pacote compatível. Na **1.0.10**, a consulta inicial acontece em
+toda abertura da tela principal, mesmo que já tenha verificado no mesmo dia.
+Mantendo o aplicativo aberto, as consultas posteriores continuam limitadas a
+uma por dia. “Verificar atualização” permite consultar manualmente.
 
 Desde o Windows **1.0.7**, escolha **Atualizar agora** para baixar com progresso
 e conferir o arquivo. Você pode cancelar ou adiar. Ao confirmar **Atualizar e
@@ -108,7 +110,7 @@ identificação da versão podem ser consultados em **Sobre / Licenças** no apl
 
 - [Código-fonte do CF Link e instruções de compilação](https://github.com/cdlawliet/CFLink)
 - [Pacote de fontes macOS 1.0.2](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.2/CFLink-1.0.2-source.zip)
-- [Pacote de fontes Windows 1.0.9](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.9/CFLink-1.0.9-source.zip)
+- [Pacote de fontes Windows 1.0.10](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.10/CFLink-1.0.10-source.zip)
 - [Licença completa](LICENCE)
 - [Projeto original RustDesk](https://github.com/rustdesk/rustdesk)
 - [Hashes SHA-256 dos arquivos publicados](https://github.com/cdlawliet/cflink-releases/releases/latest/download/SHA256SUMS.txt)
