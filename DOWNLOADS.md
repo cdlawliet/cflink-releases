@@ -70,3 +70,13 @@ permanecem iguais.
 Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.6
 
 Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.6/CFLink-1.0.6-source.zip
+
+## Release v1.0.7
+
+Windows Full e QS corrigem a inicialização do atualizador e reorganizam o
+rodapé. Usuários da 1.0.5/1.0.6 precisam instalar a 1.0.7 manualmente uma vez,
+pois a chamada defeituosa fica no aplicativo antigo. macOS continua na 1.0.2.
+
+Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.7
+
+Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.7/CFLink-1.0.7-source.zip
