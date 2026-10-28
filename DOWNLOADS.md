@@ -122,3 +122,15 @@ macOS permanece na 1.0.2; os links estáveis foram preservados.
 Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.11
 
 Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.11/CFLink-1.0.11-source.zip
+
+## Release v1.0.12
+
+O Full instalado tenta registrar o serviço ausente automaticamente, usando a
+mesma rotina do botão Iniciar Serviço. Mantém UAC quando necessário, preserva
+ID/configurações e tem proteção contra ciclos de reparo/reabertura. A ação
+manual permanece como alternativa em caso de falha. QS continua portátil.
+macOS permanece na 1.0.2; os links estáveis foram preservados.
+
+Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.12
+
+Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.12/CFLink-1.0.12-source.zip

@@ -7,18 +7,18 @@ da empresa, sem necessidade de configurar um servidor.
 
 ## Downloads
 
-**Windows: 1.0.11. macOS: 1.0.2.** Escolha seu sistema e o tipo de uso:
+**Windows: 1.0.12. macOS: 1.0.2.** Escolha seu sistema e o tipo de uso:
 
 | Sistema | Full — realizar e receber acesso | QS — somente receber suporte |
 |---|---|---|
-| Windows x64 — **1.0.11** | [Baixar Full — instalador](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-Full-install.exe) | [Baixar QS — portátil](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS.exe) |
+| Windows x64 — **1.0.12** | [Baixar Full — instalador](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-Full-install.exe) | [Baixar QS — portátil](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS.exe) |
 | macOS 12.3 ou posterior, Apple Silicon — **1.0.2** | [Baixar Full — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-Full-arm64.dmg) | [Baixar QS — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-QS-arm64.dmg) |
 
 [Ver todos os arquivos e versões](https://github.com/cdlawliet/cflink-releases/releases)
 
-A versão Windows 1.0.11 verifica o serviço do Full instalado ao abrir e tenta
-iniciá-lo quando parado, com autorização do Windows quando necessário.
-Mantém a consulta de atualizações em toda abertura e as correções do instalador.
+A versão Windows 1.0.12 também tenta registrar automaticamente o serviço
+ausente no Full instalado, usando a mesma rotina do botão Iniciar Serviço.
+O Windows pode solicitar autorização de administrador e o Full pode reabrir.
 As funcionalidades da versão 1.0.3 estão preservadas nos pacotes Windows. Os DMGs permanecem
 na versão 1.0.2, sem essas alterações, até a próxima compilação no Mac.
 Os pacotes macOS desta publicação são para Apple Silicon. Não há pacote para
@@ -65,9 +65,11 @@ feche a versão anterior antes de instalar ou abrir o novo pacote.
 
 No Full instalado, o rodapé mostra **Serviço ativo** quando o serviço está
 funcionando. Se estiver parado, o aplicativo tenta iniciá-lo e poderá solicitar
-autorização de administrador. Se estiver ausente ou com caminho incorreto,
-use **Reparar serviço**: a confirmação explica o reinício do Full e a interrupção
-das conexões. A rotina original preserva o ID e as configurações.
+autorização de administrador. Se estiver ausente, tenta registrar o serviço
+automaticamente, preservando o ID/configurações e reabrindo o Full. Em caso
+de falha ou caminho incorreto, **Reparar serviço** continua disponível.
+O reparo pode interromper conexões. Há proteção contra repetição automática
+de uma tentativa recente que falhou.
 QS e Full portátil não instalam nem controlam serviços.
 
 ### macOS
@@ -117,7 +119,7 @@ identificação da versão podem ser consultados em **Sobre / Licenças** no apl
 
 - [Código-fonte do CF Link e instruções de compilação](https://github.com/cdlawliet/CFLink)
 - [Pacote de fontes macOS 1.0.2](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.2/CFLink-1.0.2-source.zip)
-- [Pacote de fontes Windows 1.0.11](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.11/CFLink-1.0.11-source.zip)
+- [Pacote de fontes Windows 1.0.12](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.12/CFLink-1.0.12-source.zip)
 - [Licença completa](LICENCE)
 - [Projeto original RustDesk](https://github.com/rustdesk/rustdesk)
 - [Hashes SHA-256 dos arquivos publicados](https://github.com/cdlawliet/cflink-releases/releases/latest/download/SHA256SUMS.txt)
