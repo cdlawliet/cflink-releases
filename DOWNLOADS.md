@@ -111,3 +111,14 @@ macOS permanece nos DMGs 1.0.2; os links estáveis foram preservados.
 Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.10
 
 Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.10/CFLink-1.0.10-source.zip
+
+## Release v1.0.11
+
+O Full instalado verifica/inicia seu serviço ao abrir, com UAC quando
+necessário, e oferece reparo pela rotina original se o serviço não existir
+ou apontar para outro executável. QS e Full portátil não controlam serviços.
+macOS permanece na 1.0.2; os links estáveis foram preservados.
+
+Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.11
+
+Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.11/CFLink-1.0.11-source.zip
