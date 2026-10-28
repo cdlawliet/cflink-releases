@@ -26,3 +26,15 @@ Fontes da versão: https://github.com/cdlawliet/cflink-releases/releases/downloa
 O ZIP de fontes é o código modificado do CF Link. Os arquivos automáticos
 “Source code” do GitHub neste repositório contêm apenas a documentação de
 downloads e não substituem o pacote de fontes do aplicativo.
+
+## Release v1.0.3
+
+Windows Full e QS estão na versão 1.0.3. Os mesmos links estáveis de macOS
+continuam entregando os DMGs 1.0.2. A release informa as versões separadamente.
+
+Windows — fontes: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.3/CFLink-1.0.3-source.zip
+
+Cada asset tem um label terminado em `vX.Y.Z`, com sua versão real, por exemplo
+`CFLink-macOS-QS-arm64.dmg - v1.0.2`. Preserve essa convenção ao publicar: o
+aplicativo usa a versão do asset para não oferecer um download antigo como novo
+em releases que misturam versões de plataformas diferentes.

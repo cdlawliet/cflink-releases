@@ -7,15 +7,17 @@ da empresa, sem necessidade de configurar um servidor.
 
 ## Downloads
 
-**Versão atual: 1.0.2.** Escolha seu sistema e o tipo de uso:
+**Windows: 1.0.3. macOS: 1.0.2.** Escolha seu sistema e o tipo de uso:
 
 | Sistema | Full — realizar e receber acesso | QS — somente receber suporte |
 |---|---|---|
-| Windows x64 | [Baixar Full — instalador](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-Full-install.exe) | [Baixar QS — portátil](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS.exe) |
-| macOS 12.3 ou posterior, Apple Silicon (M1/M2/M3 e posteriores) | [Baixar Full — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-Full-arm64.dmg) | [Baixar QS — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-QS-arm64.dmg) |
+| Windows x64 — **1.0.3** | [Baixar Full — instalador](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-Full-install.exe) | [Baixar QS — portátil](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS.exe) |
+| macOS 12.3 ou posterior, Apple Silicon — **1.0.2** | [Baixar Full — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-Full-arm64.dmg) | [Baixar QS — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-QS-arm64.dmg) |
 
 [Ver todos os arquivos e versões](https://github.com/cdlawliet/cflink-releases/releases)
 
+As novidades da versão 1.0.3 estão nos pacotes Windows. Os DMGs permanecem
+na versão 1.0.2, sem essas alterações, até a próxima compilação no Mac.
 Os pacotes macOS desta publicação são para Apple Silicon. Não há pacote para
 Mac Intel, Android ou iOS nesta release.
 
@@ -41,7 +43,11 @@ fixo. O servidor de atendimento é predefinido e não pode ser editado na interf
 
 Quem tiver o ID e a senha temporária poderá conectar sem uma aprovação
 adicional. Compartilhe esses dados apenas com o profissional que você autorizou.
-O aplicativo não traz uma senha fixa compartilhada entre os usuários.
+No Windows 1.0.3, a senha padrão predefinida pelo responsável pelo projeto
+também autoriza o acesso, sem aparecer na tela principal. Quem conhecer o ID e
+uma das senhas aceitas poderá conectar sem aprovação adicional. Ao iniciar uma
+nova conexão pelo Full 1.0.3, a senha precisa ser digitada: não há preenchimento
+automático nem opção de lembrar a senha do cliente.
 
 ## Instalação e permissões
 
@@ -64,6 +70,12 @@ de segurança ao abri-los; confira a origem e os hashes disponíveis na release.
 
 ## Atualizações
 
+Desde o Windows 1.0.3, o aplicativo pode consultar este repositório e avisar
+sobre um novo pacote compatível. A consulta automática ocorre no máximo uma vez
+por dia; “Verificar atualização” permite consultar manualmente. Você escolhe
+“Baixar atualização” para abrir o download ou “Mais tarde”. A instalação não é
+automática. Esse aviso passa a funcionar depois de instalar a versão 1.0.3.
+
 As atualizações são distribuídas por este repositório. Baixe o pacote mais
 recente na tabela acima e substitua a versão anterior. O atualizador do
 RustDesk original fica desabilitado nos clientes CF Link.
@@ -75,7 +87,8 @@ CF Link é uma versão modificada do **RustDesk 1.5.0**, distribuída sob a
 identificação da versão podem ser consultados em **Sobre / Licenças** no aplicativo.
 
 - [Código-fonte do CF Link e instruções de compilação](https://github.com/cdlawliet/CFLink)
-- [Pacote de fontes da versão 1.0.2](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.2/CFLink-1.0.2-source.zip)
+- [Pacote de fontes macOS 1.0.2](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.2/CFLink-1.0.2-source.zip)
+- [Pacote de fontes Windows 1.0.3](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.3/CFLink-1.0.3-source.zip)
 - [Licença completa](LICENCE)
 - [Projeto original RustDesk](https://github.com/rustdesk/rustdesk)
 - [Hashes SHA-256 dos arquivos publicados](https://github.com/cdlawliet/cflink-releases/releases/latest/download/SHA256SUMS.txt)
