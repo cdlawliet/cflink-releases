@@ -80,3 +80,14 @@ pois a chamada defeituosa fica no aplicativo antigo. macOS continua na 1.0.2.
 Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.7
 
 Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.7/CFLink-1.0.7-source.zip
+
+## Release v1.0.8
+
+O Full abre o instalador mesmo com nomes `install (1).exe`/`install (2).exe`,
+sem depender do nome atribuído pelo navegador. QS continua portátil. O
+assistente reutiliza o diretório da instalação já registrada. macOS permanece
+na 1.0.2; os links estáveis não mudaram.
+
+Release: https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.8
+
+Fontes Windows: https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.8/CFLink-1.0.8-source.zip
