@@ -1,5 +1,12 @@
 # Links de download para o site
 
+QS x86 adicional, **preview para validar Windows 7 SP1**, sem alterar o latest
+estável ou os assets x64:
+
+https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.13-qs-x86-preview.1/CFLink-Windows-QS-x86.exe
+
+Não anuncie suporte confirmado ao Windows 7 antes de concluir o piloto.
+
 Estes links apontam para os arquivos da release marcada como mais recente:
 
 | Pacote | Link estável |

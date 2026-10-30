@@ -16,6 +16,16 @@ da empresa, sem necessidade de configurar um servidor.
 
 [Ver todos os arquivos e versões](https://github.com/cdlawliet/cflink-releases/releases)
 
+### QS para Windows 32 bits — versão de teste
+
+[Baixar QS x86](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.13-qs-x86-preview.1/CFLink-Windows-QS-x86.exe)
+para o piloto em **Windows 7 SP1 de 32 bits**. A compatibilidade nesse sistema
+ainda aguarda teste real; a abertura foi conferida no Windows atual via WOW64.
+Este pacote adicional usa Sciter, só recebe conexões e não substitui os downloads
+estáveis Full/QS x64 acima. Consulte a
+[release de teste e o roteiro de validação](https://github.com/cdlawliet/cflink-releases/releases/tag/v1.0.13-qs-x86-preview.1).
+Fontes correspondentes estão no ZIP específico anexado ao preview.
+
 O Windows 1.0.13 restaura **Lembrar senha** e corrige sessões recentes e
 favoritos quando a pasta Documentos não está disponível. Registros existentes
 são preservados, sem necessidade de trocar o ID.
