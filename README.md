@@ -7,12 +7,12 @@ da empresa, sem necessidade de configurar um servidor.
 
 ## Downloads
 
-**Windows: 1.0.14. macOS: 1.0.2.** Escolha seu sistema e o tipo de uso:
+**Windows: 1.0.15. macOS: 1.0.2.** Escolha seu sistema e o tipo de uso:
 
 | Sistema | Full — realizar e receber acesso | QS — somente receber suporte |
 |---|---|---|
-| Windows x64 — **1.0.14** | [Baixar Full — instalador](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-Full-install.exe) | [Baixar QS — portátil](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS.exe) |
-| Windows x86 (32 bits) — **1.0.14** | Não disponibilizado | [Baixar QS — portátil 32 bits](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS-x86.exe) |
+| Windows x64 — **1.0.15** | [Baixar Full — instalador](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-Full-install.exe) | [Baixar QS — portátil](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS.exe) |
+| Windows x86 (32 bits) — **1.0.15** | Não disponibilizado | [Baixar QS — portátil 32 bits](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-Windows-QS-x86.exe) |
 | macOS 12.3 ou posterior, Apple Silicon — **1.0.2** | [Baixar Full — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-Full-arm64.dmg) | [Baixar QS — DMG ARM64](https://github.com/cdlawliet/cflink-releases/releases/latest/download/CFLink-macOS-QS-arm64.dmg) |
 
 [Ver todos os arquivos e versões](https://github.com/cdlawliet/cflink-releases/releases)
@@ -23,8 +23,13 @@ O QS x86 acompanha a release principal desde **1.0.14** e continuará incluído
 nas próximas publicações, junto dos pacotes x64. Use o link da tabela acima.
 Ele usa Sciter e apenas recebe conexões. **Windows 7 SP1 de 32 bits ainda
 aguarda validação real no piloto**; a publicação não certifica esse suporte.
-Os fontes correspondentes estão em `CFLink-1.0.14-qs-x86-source.zip` na release.
+Os fontes correspondentes estão em `CFLink-1.0.15-qs-x86-source.zip` na release.
 Full x64 e QS x64 continuam disponíveis separadamente.
+
+Na **1.0.15**, o QS x86 usa o ícone CF Link na janela, ajusta sua altura ao
+conteúdo e confirma a atualização dentro do aplicativo. **Se o botão do QS
+x86 1.0.13/1.0.14 não responder, baixe e abra o novo portátil manualmente uma
+vez** pelo link da tabela. A interface antiga só é corrigida após a substituição.
 
 O Windows 1.0.13 restaura **Lembrar senha** e corrige sessões recentes e
 favoritos quando a pasta Documentos não está disponível. Registros existentes
@@ -134,8 +139,8 @@ identificação da versão podem ser consultados em **Sobre / Licenças** no apl
 
 - [Código-fonte do CF Link e instruções de compilação](https://github.com/cdlawliet/CFLink)
 - [Pacote de fontes macOS 1.0.2](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.2/CFLink-1.0.2-source.zip)
-- [Pacote de fontes Windows x64 1.0.14](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.14/CFLink-1.0.14-source.zip)
-- [Pacote de fontes Windows QS x86 1.0.14](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.14/CFLink-1.0.14-qs-x86-source.zip)
+- [Pacote de fontes Windows x64 1.0.15](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.15/CFLink-1.0.15-source.zip)
+- [Pacote de fontes Windows QS x86 1.0.15](https://github.com/cdlawliet/cflink-releases/releases/download/v1.0.15/CFLink-1.0.15-qs-x86-source.zip)
 - [Licença completa](LICENCE)
 - [Projeto original RustDesk](https://github.com/rustdesk/rustdesk)
 - [Hashes SHA-256 dos arquivos publicados](https://github.com/cdlawliet/cflink-releases/releases/latest/download/SHA256SUMS.txt)
