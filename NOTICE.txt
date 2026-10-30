@@ -7,8 +7,7 @@ GNU Affero General Public License versão 3 da base foram preservados.
 O logotipo e a identidade CF Link foram criados para a CF Tecnologia.
 Os direitos dos autores de RustDesk e de suas dependências permanecem preservados.
 
-Servidor ID: 179.198.111.247:21116
-Relay: 179.198.111.247:21117
+Servidor ID/relay: configuração operacional omitida neste repositório.
 Não há chave privada do servidor incorporada ao aplicativo.
 
 As configurações de servidor são fixas nesta compilação. Para alterar o servidor,

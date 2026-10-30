@@ -142,9 +142,10 @@ identificação da versão podem ser consultados em **Sobre / Licenças** no apl
 Copyright dos autores originais preservado. Personalização e identidade visual:
 **CF Tecnologia**. O software é fornecido nos termos e limites de garantia da licença.
 
-Os ZIPs de fontes públicos não incluem a senha padrão de recebimento usada na
-operação. Esse campo de configuração e a constante gerada ficam vazios; para
-compilar, defina uma senha própria de pelo menos 12 caracteres e siga o arquivo
+Os ZIPs de fontes públicos não incluem a senha padrão, os endereços ID/relay
+nem a chave pública da operação. Esses campos de configuração, as constantes
+geradas e o arquivo de chave ficam vazios. Para compilar, informe os dados do
+seu servidor e uma senha própria de pelo menos 12 caracteres e siga o arquivo
 `LEIA-ANTES-DE-COMPILAR.md` incluído nos pacotes que possuem essa funcionalidade.
 Os instaladores publicados mantêm sua configuração. A remoção nos fontes não
-retira a senha dos executáveis nem de cópias antigas dos ZIPs já baixadas.
+retira esses dados dos executáveis nem de cópias antigas dos ZIPs já baixadas.
